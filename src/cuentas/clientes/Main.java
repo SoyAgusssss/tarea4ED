@@ -1,7 +1,9 @@
 package cuentas.clientes;
 
 public class Main {
-
+    
+    // Este es un comendario de prueba del ejercicio 2 de GIT
+    
     public static void main(String[] args) {
         operativa_cuenta(555f);
     }
@@ -10,7 +12,7 @@ public class Main {
         Cuenta cuenta1;
         double saldoActual;
 
-        cuenta1 = new Cuenta("Rafael Nadal Parera","1000-2365-85-1230456789",2500,0);
+        cuenta1 = new Cuenta("Paco Perez","1000-2365-85-1230456789",2500,0);
         
         System.out.println("El saldo actual es:"+ cuenta1.estado() );
 
